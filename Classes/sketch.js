@@ -282,13 +282,13 @@ function setup(){
   sam.scale = 2.8;
   //sam.debug = true;
 
-  box1 = createSprite(15,340,10,630);
+  box1 = createSprite(120,340,10,630);
   box1.visible = false;
-  box2 = createSprite(670,15,1350,10);
+  box2 = createSprite(670,145,1350,10);
   box2.visible = false;
-  box3 = createSprite(1325,340,10,630);
+  box3 = createSprite(1200,340,10,630);
   box3.visible = false;
-  box4 = createSprite(670,655,1350,15);
+  box4 = createSprite(670,550,1350,15);
   box4.visible = false;
 
   face = createSprite(65,75,110,110);
